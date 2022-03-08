@@ -49,9 +49,11 @@ public class PixService {
             System.out.println("Pix não enviado: Valor insuficiente");
         } else if (!validarCPF(key) && !validarEmail(key)) {
             System.out.println("Pix não enviado: Chave inválida");
+        } else {
+            System.out.println("Pix Enviado com sucesso");
         }
 
-        System.out.println("Pix Enviado com sucesso");
+        
     }
 
 
